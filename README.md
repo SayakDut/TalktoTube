@@ -72,6 +72,10 @@
 
 5. **Run the application**
    ```bash
+   # Activate virtual environment
+   .venv\Scripts\activate
+
+   # Run the app
    streamlit run app.py
    ```
 
