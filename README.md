@@ -17,25 +17,14 @@
 
 ## 🖼️ Screenshots
 
-### Main Interface
-![Main Interface](screenshots/main-interface.png)
-*Clean, professional interface with intuitive controls and demo mode*
+> **Note**: Screenshots will be added soon to showcase the application's features.
 
-### Video Processing
-![Video Processing](screenshots/video-processing.png)
-*Real-time processing with progress indicators and smart fallback system*
-
-### AI Summary Generation
-![AI Summary](screenshots/ai-summary.png)
-*Intelligent bullet-point summaries with timestamps and key insights*
-
-### Interactive Q&A System
-![Interactive Q&A](screenshots/interactive-qa.png)
-*Context-aware question answering with precise source citations*
-
-### Professional Export
-![Export Functionality](screenshots/export-functionality.png)
-*Markdown export with full formatting and Q&A history*
+### Key Features Demonstrated:
+- **Main Interface** - Clean, professional interface with demo mode
+- **Video Processing** - Real-time processing with progress indicators
+- **AI Summary** - Intelligent bullet-point summaries with timestamps
+- **Interactive Q&A** - Context-aware question answering with citations
+- **Export Feature** - Professional Markdown export functionality
 
 ## 🚀 Quick Start
 
@@ -74,8 +63,11 @@
 4. **Configure environment**
    ```bash
    cp .env.example .env
-   # Edit .env and add your HuggingFace token:
-   # HUGGINGFACEHUB_API_TOKEN=your_token_here
+   ```
+
+   **Edit the `.env` file and add your HuggingFace token:**
+   ```bash
+   HUGGINGFACEHUB_API_TOKEN=your_actual_token_here
    ```
 
 5. **Run the application**
