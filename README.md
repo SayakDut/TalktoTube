@@ -11,7 +11,7 @@
 
 **🚀 Transform any YouTube video into an intelligent, searchable knowledge base with AI-powered analysis**
 
-[🎯 Live Demo](#-demo-mode) • [📖 Documentation](#-documentation) • [🛠️ Installation](#-installation) • [🎥 Screenshots](#-application-showcase)
+[🎯 Demo Mode](#-demo-mode) • [🛠️ Installation](#-installation) • [🎥 Screenshots](#-application-showcase) • [🧪 Testing](#-enterprise-testing--quality-assurance)
 
 </div>
 
@@ -318,12 +318,16 @@ Customize behavior via the sidebar:
 - **Max Duration**: Video length limit for transcription (5-120 minutes)
 - **Translation**: Auto-translate non-English content to English
 
-## 🔧 API Models Used
+## 🔧 **HuggingFace Models & APIs Used**
 
-- **Transcription**: `openai/whisper-small`
-- **Summarization**: `facebook/bart-large-cnn`
-- **Q&A**: `google/flan-t5-base`
-- **Embeddings**: `sentence-transformers/all-MiniLM-L6-v2`
+| Component | Model | HuggingFace API |
+|-----------|-------|-----------------|
+| **🎵 Transcription** | `openai/whisper-small` | Automatic Speech Recognition |
+| **📝 Summarization** | `facebook/bart-large-cnn` | Text Generation |
+| **❓ Q&A** | `google/flan-t5-base` | Text Generation |
+| **🔍 Embeddings** | `sentence-transformers/all-MiniLM-L6-v2` | Feature Extraction |
+
+**✅ All AI functionality powered by HuggingFace Inference API**
 
 ## 📝 Notes
 
